@@ -196,7 +196,7 @@ spec:
             U2x1cm1jbHVzdGVyKQoJaHR0cC5MaXN0ZW5BbmRTZXJ2ZSgiOjgwOTAiLCBuaWwpCn0K
           path: /tmp/server.go
           permissions: '0777'
-        - content: |
+        - content: |`
             #!/bin/sh
 
             export HOME=/home/mik

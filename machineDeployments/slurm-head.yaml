@@ -284,20 +284,6 @@ spec:
             sudo srun -N 6 --mpi=pmi2 mpi-hello-world
           path: /home/mik/slurm_tests/hello-world.sh
           permissions: '0747'
-        - content: !!binary |
-            Ly8gQSBmdW5jdGlvbiB0aGF0IHdpbGwgYmUgcGxhY2VkIHNvbWV3ZXJlIGJlZm9yZSB0aGUgcHJv
-            dmlzaW9pbmluZyBwaGFzZQpwYWNrYWdlIG1haW4KCmltcG9ydCAoCgkiZm10IgoJIm5ldC9odHRw
-            IgoJIm9zIgopCgpmdW5jIG1haW4oKSB7Cglub2RlIDo9IG9zLkFyZ3NbMV0KCW1vZGUgOj0gb3Mu
-            QXJnc1syXQoJZm10LlByaW50ZigiRGV0YWNoaW5nIG5vZGUgJXMgZnJvbSBzbHVybSB3aXRoIG1v
-            ZGUgJXNcbiIsIG5vZGUsIG1vZGUpCgoJaWYgbW9kZSAhPSAiZHJhaW4iICYmIG1vZGUgIT0gImRl
-            dGFjaCIgewoJCWZtdC5QcmludGxuKCJFcnJvcjogVXNhZ2UgY2xpZW50IFtub2RlLWFkZHJlc3Nd
-            IFtkZXRhY2h8ZHJhaW5dIikKCQlyZXR1cm4KCX0KCgl1cmwgOj0gZm10LlNwcmludGYoImh0dHA6
-            Ly8lczo4MDkwLyVzIiwgbm9kZSwgbW9kZSkKCXJlc3AsIGVyciA6PSBodHRwLkdldCh1cmwpCgoJ
-            aWYgZXJyICE9IG5pbCB8fCByZXNwLlN0YXR1c0NvZGUgIT0gMjAwIHsKCQlmbXQuUHJpbnRsbigi
-            Q2Fubm90IGRldGFjaCIpCgkJZm10LlByaW50bG4oZXJyKQoJCXJldHVybgoJfQoKCWZtdC5Qcmlu
-            dGxuKCJEZXRhY2hlZCIpCn0K
-          path: /tmp/client.go
-          permissions: '0777'  
       users:
         - name: mik
           sudo: ALL=(ALL) NOPASSWD:ALL
