@@ -6,4 +6,4 @@ This repository contains all the projects and configurations needed to make it p
 
 Prerequisites:
 - [Metal3 Developer Enviroment](https://github.com/metal3-io/metal3-dev-env)
-- Virtual Kubelet Bootstrap Provider `
+- Virtual Kubelet Bootstrap Provider
